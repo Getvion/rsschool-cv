@@ -20,10 +20,44 @@ My motivation for learning is freedom and independence. I also want to have time
 
 ## My Skills
 
-- **Programming languages:** HTML, CSS, JavaScript, React
+- **Programming languages:** HTML, CSS, SCSS, JavaScript, React
 
 - **IDE** : I'm using Visual Studio Code with some favorite extension
 
 - **Other software** : Adobe Photoshop, FIgma, Adobe Illustrator, Postman, Git
+
+---
+
+## Code example from last project
+
+```
+function RenderReplies({ comment }) {
+  return (
+    <div className='comments__item'>
+      <div className='comments__content'>
+        <div>
+          <img
+            className='comments__image'
+            src='https://www.caribbeangamezone.com/wp-content/uploads/2018/03/avatar-placeholder.png'
+            alt=''
+          />
+          <p className='comments__author'>{comment.author}</p>
+        </div>
+        <p className='comments__text'>{comment.text}</p>
+      </div>
+      <div className='comments__like-wrapper'>
+        <button className='comments__like-btn'>like</button>
+      </div>
+    </div>
+  );
+}
+
+```
+
+## Experience
+
+- I was created some [micro-projects](https://getvion.github.io/js-mini-projects/) using HTML, CSS and JS, [Telegram Bot](https://github.com/Getvion/TelegramBot) using telegram API (you can find him by @VladosVM_Bot), [Movie App](https://getvion.github.io/first-movie-app/) with JavaScript and KinoPoisk API and [Search React App](https://getvion.github.io/react-search/)
+
+- Also worked in a team, while I help my friend with HTML and JavaScript in his project.
 
 ---
