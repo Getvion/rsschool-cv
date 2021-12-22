@@ -64,4 +64,4 @@ function RenderReplies({ comment }) {
 
 ## English
 
-I'm practicing my English and try to level-up level. Now I'm between И1 (intermediate) and B2 (upper intermediate) by [EFSET](https://www.efset.org/) test. I Can read some articles on english, write little texts, talk and chat with other people and watch films with subs.
+I'm practicing my English and try to level-up level. Now I'm between B1 (intermediate) and B2 (upper intermediate) by [EFSET](https://www.efset.org/) test. I Can read some articles on english, write little texts, talk and chat with other people and watch films with subs.
