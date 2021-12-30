@@ -9,6 +9,10 @@
 
   <link href="reset.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,26 +20,107 @@
     <header class="header">
       <img class="avatar" src="https://avatars.githubusercontent.com/u/71687730?s=400&v=4" alt="avatar">
       <nav class="nav">
+        <h1 class="nav__name">Getvion <span>junior frontend-developer</span> </h1>
         <ul class="nav__list list">
           <li class="list__item">
             <a class="list__link" href="#about">About</a>
           </li>
           <li class="list__item">
-            <a class="list__link" href="#contacts">Contacts</a>
-          </li>
-          <li class="list__item">
             <a class="list__link" href="#skills">Skills</a>
           </li>
+          <li class="list__item">
+            <a class="list__link" href="#contacts">Contacts</a>
+          </li>
+
         </ul>
       </nav>
     </header>
 
     <main class="main">
+      <div class="wrapper">
+        <section class="about" id="about">
+          <h2 class="about__title title">About Me</h2>
+          <p class="about__text text">
+            Hello, my nickname is , Getvion and I am a web developer. I am 19 years old and I want to became master of
+            my future profession. Now I am studying at a university, independently studying React and additionally
+            studying at RS Scool.</p>
+          <p class="about__text text">My motivation for learning is freedom and independence. I also want to have time
+            for
+            a hobby: to design a smart home and various devices for it.</p>
+        </section>
 
+        <section class="skills" id="skills">
+          <h2 class="skills__title title">Skills</h2>
+          <ul class="skills__list list">
+            <li class="skills__list-item">
+              <b>Programming languages:</b> HTML, CSS, SCSS, JavaScript, React
+            </li>
+            <li class="skills__list-item">
+              <b>IDE:</b> I’m using Visual Studio Code with some favorite extension
+            </li>
+            <li class="skills__list-item">
+              <b>Other software:</b> Adobe Photoshop, FIgma, Adobe Illustrator, Postman,Git
+            </li>
+          </ul>
+        </section>
+
+        <section class="experience">
+          <h2 class="experience__title title">Developer experience</h2>
+          <p class="experience__text text">
+            I was created some micro-projects using HTML, CSS and JS, Telegram Bot using telegram API (you can find him
+            by @VladosVM_Bot), Movie App with JavaScript and KinoPoisk API and Search React App
+          </p>
+          <p class="experience__text text">
+            Also worked in a team, while I help my friend with HTML and JavaScript in his project.
+          </p>
+          <div class="experience__wrapper">
+            <p>Some of my projects:</p>
+            <ul class="experience__list">
+              <li class="experience__item">
+                <a class="experience__link" href="https://getvion.github.io/js-mini-projects/">Mini Projects on JS</a>
+              </li>
+              <li class="experience__item">
+                <a class="experience__link" href="https://getvion.github.io/first-movie-app/">My first Movie App on
+                  JS</a>
+              </li>
+              <li class="experience__item">
+                <a class="experience__link" href="https://getvion.github.io/calculator/">Simple Calculator</a>
+              </li>
+              <li class="experience__item">
+                <a class="experience__link" href="https://getvion.github.io/first-todo-app/">ToDo App</a>
+              </li>
+              <li class="experience__item">
+                <a class="experience__link" href="https://getvion.github.io/comments-react-app/">Comments react app</a>
+              </li>
+              <li class="experience__item">
+                <a class="experience__link" href="https://getvion.github.io/react-search/">React Search App</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="english">
+          <h2 class="english__title title">English level</h2>
+          <p class="english__text text">I’m practicing my English and try to level-up level. Now I’m between B1
+            (intermediate) and B2 (upper intermediate) by EFSET test. I Can read some articles on english, write little
+            texts, talk and chat with other people and watch films with subs.</p>
+        </section>
+
+        <section class="contacts" id="contacts">
+          <h2 class="contacts__title title">Contacts</h2>
+          <ul class="contacts__list list">
+            <li class="contacts__item"> Email : getvion@protonmail.com </li>
+            <li class="contacts__item">Telegram : @getvion</li>
+            <li class="contacts__item"> GitHub : @getvion </li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <footer class="footer">
+      <div class="wrapper">
 
+      </div>
     </footer>
   </div>
 </body>
