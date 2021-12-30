@@ -117,3 +117,16 @@ section {
 .footer {
   background-color: brown;
 }
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  color: #fff;
+}
+.footer__wrapper img {
+  min-height: 50px;
+}
+.footer__wrapper li a {
+  color: #fff;
+}
