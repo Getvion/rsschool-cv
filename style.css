@@ -54,7 +54,7 @@ section {
 }
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .nav__name span {
@@ -129,4 +129,27 @@ section {
 }
 .footer__wrapper li a {
   color: #fff;
+}
+
+@media (max-width: 560px) {
+  .avatar {
+    max-width: 150px;
+  }
+  .nav__name span {
+    display: block;
+    margin-left: 0;
+  }
+  .nav__list {
+    display: block;
+  }
+  .list__item + .list__item {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .avatar {
+    max-width: 100px;
+  }
 }
