@@ -2,4 +2,161 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Spline Sans', sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  color: #000;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+section {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(82, 82, 82);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 830px;
+  padding: 20px 15px;
+  box-shadow: 15px 10px 20px 0px rgba(129, 136, 141, 0.05);
+}
+
+.avatar {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.text {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav__name span {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav__list {
+  display: flex;
+}
+.list__item + .list__item {
+  margin-left: 60px;
+}
+.list__link {
+  transition: border 0.2s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+.list__link:hover {
+  border-bottom: 3px solid rgb(165, 74, 74);
+}
+
+.main {
+  margin-bottom: 10px;
+}
+
+.skills__list-item + .skills__list-item {
+  margin-top: 10px;
+}
+.code {
+  margin-top: 16px;
+  max-width: 300px;
+}
+.code p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.experience__wrapper {
+  margin-top: 10px;
+}
+.experience__wrapper p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.experience__list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.experience__item {
+  margin: 10px;
+}
+.experience__link {
+  color: blue;
+}
+.experience__link:hover {
+  border-bottom: 1px solid blue;
+}
+
+.contacts__item {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: brown;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  color: #fff;
+}
+.footer__wrapper img {
+  min-height: 50px;
+}
+.footer__wrapper li a {
+  color: #fff;
+}
+
+@media (max-width: 560px) {
+  .avatar {
+    max-width: 150px;
+  }
+  .nav__name span {
+    display: block;
+    margin-left: 0;
+  }
+  .nav__list {
+    display: block;
+  }
+  .list__item + .list__item {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .avatar {
+    max-width: 100px;
+  }
 }
